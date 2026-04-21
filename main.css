@@ -107,6 +107,27 @@ section { padding: 7rem 4rem; }
 .certs-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
 .cert-card { background: var(--paper); border: 0.5px solid var(--line); padding: 1.75rem; position: relative; overflow: hidden; transition: transform 0.2s; }
 .cert-card:hover { transform: translateY(-3px); }
+.cert-image-link {
+	display: block;
+	text-decoration: none;
+	margin-bottom: 1rem;
+	border-radius: 0.35rem;
+	overflow: hidden;
+}
+.cert-image {
+	width: 100%;
+	height: 165px;
+	display: block;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 0.35rem;
+	margin-bottom: 1rem;
+	border: 1px solid rgba(0,0,0,0.08);
+	background: #fff;
+}
+.cert-image-link:hover .cert-image {
+	transform: scale(1.02);
+}
 .cert-issuer { font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 500; margin-bottom: 0.75rem; }
 .cert-issuer.google { color: #1a73e8; }
 .cert-issuer.wesleyan { color: var(--red); }
@@ -401,6 +422,15 @@ footer { padding: 2rem 4rem; background: var(--ink); color: rgba(255,255,255,0.4
 		overflow: hidden;
 		transform: translateZ(0);
 	}
+	.project-visual img {
+		width: 100%;
+		height: 100%;
+		display: block;
+		object-fit: cover;
+		object-position: center;
+		position: relative;
+		z-index: 1;
+	}
 	.project-visual::after {
 		content: '';
 		position: absolute;
@@ -409,12 +439,12 @@ footer { padding: 2rem 4rem; background: var(--ink); color: rgba(255,255,255,0.4
 	}
 	.project-visual--haru {
 		background:
-		  radial-gradient(circle at 20% 20%, rgba(26,58,92,0.25), transparent 28%),
+		  radial-gradient(circle at 20% 20%, rgba(26,58,92,0.18), transparent 28%),
 		  linear-gradient(135deg, #f1ede6 0%, #dfe4e8 100%);
 	}
 	.project-visual--compiler {
 		background:
-		  radial-gradient(circle at 70% 30%, rgba(184,146,43,0.22), transparent 24%),
+		  radial-gradient(circle at 70% 30%, rgba(184,146,43,0.16), transparent 24%),
 		  linear-gradient(135deg, #ece7df 0%, #d8d4d1 100%);
 	}
 	.pc-link--ghost {
