@@ -1,32 +1,30 @@
 # Muhammad Morsalin Portfolio
 
-A polished personal portfolio website for Muhammad Morsalin, built as a responsive single-page experience with a strong editorial look, modern section layout, and a photo-led hero area.
+A polished, responsive portfolio website for Muhammad Morsalin. The site combines an editorial-style hero, structured project showcases, academic highlights, certificates, and a terminal-inspired contact section.
 
 ## Overview
 
-This repository contains a static portfolio site that presents:
+This repository contains a static single-page portfolio that presents:
 
-- a hero section with profile photo and quick links
+- a photo-led hero section with quick links
 - a toolkit-style skills overview
-- a project / creations showcase
+- selected projects and visual previews
 - education and academic journey details
 - certificates and achievements
-- a terminal-inspired contact section
+- a contact area with a terminal-inspired layout
 
-The site is designed to feel clean, intentional, and professional while remaining simple to maintain.
+The goal is to keep the experience clean, professional, and easy to maintain.
 
 ## Live Preview
 
-If deployed, add the live URL here:
-
-- Live site: `https://your-domain-or-github-pages-link`
+- Live site: replace this with your deployed URL
 
 ## Tech Stack
 
 - HTML5
 - CSS3
 - Google Fonts
-- Responsive design with CSS Grid and Flexbox
+- CSS Grid and Flexbox
 
 ## Project Structure
 
@@ -35,30 +33,36 @@ Portfolio/
 ├── index.html
 ├── main.css
 ├── IMG_0183.JPG
-├── 1398025.jpg
+├── Certificate 1.jpg
+├── certificate 2.jpg
+├── R programming.png
+├── Screenshot 2026-01-12 174302.png
+├── Screenshot 2026-01-13 233713.png
+├── LICENSE
 └── README.md
 ```
 
 ## Features
 
 - Responsive layout for desktop and mobile
-- Custom typography and editorial-style spacing
+- Editorial typography and refined spacing
 - Photo-based hero section
 - Toolkit / skills presentation
-- Project cards with visual previews
+- Project cards with preview images
 - Timeline-style academic journey
-- Dark terminal-inspired contact panel
+- Certificate gallery with clickable full-size previews
+- Terminal-inspired contact panel
 - Smooth hover and motion effects
 
-## Local Setup
+## Local Development
 
 To run the site locally:
 
 1. Clone or download this repository.
-2. Open `index.html` in a browser.
+2. Open `index.html` in your browser.
 3. Or serve the folder with any local static server.
 
-Example with VS Code Live Server or a simple local server:
+Example with Python:
 
 ```bash
 python -m http.server 8000
@@ -72,7 +76,7 @@ http://localhost:8000
 
 ## Deployment
 
-This is a static site, so it can be deployed easily on:
+This is a static site and can be deployed on:
 
 - GitHub Pages
 - Netlify
@@ -80,17 +84,17 @@ This is a static site, so it can be deployed easily on:
 
 For GitHub Pages:
 
-1. Make sure the main entry file is `index.html`.
-2. Push the repository to GitHub.
-3. Go to `Settings` -> `Pages`.
-4. Select `Deploy from a branch`.
-5. Choose the `main` branch and the root folder.
+1. Push the repository to GitHub.
+2. Go to `Settings` > `Pages`.
+3. Select `Deploy from a branch`.
+4. Choose the `main` branch and the root folder.
+5. Ensure `index.html` is the entry file.
 
-## Customization Notes
+## Customization
 
-- Update the name, bio, links, and project details in `index.html`.
-- Replace the image files if you want a different portrait or cover image.
-- Tweak colors, spacing, or animation details in `main.css`.
+- Update the text content in `index.html`.
+- Replace or update the images in the repository root.
+- Tweak layout, colors, and motion in `main.css`.
 
 ## Contact
 
@@ -100,4 +104,4 @@ For GitHub Pages:
 
 ## License
 
-No license has been specified yet. Add one if you want this project to be reused or shared publicly under defined terms.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
