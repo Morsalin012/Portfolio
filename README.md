@@ -32,12 +32,7 @@ The goal is to keep the experience clean, professional, and easy to maintain.
 Portfolio/
 ├── index.html
 ├── main.css
-├── IMG_0183.JPG
-├── Certificate 1.jpg
-├── certificate 2.jpg
-├── R programming.png
-├── Screenshot 2026-01-12 174302.png
-├── Screenshot 2026-01-13 233713.png
+├── assets
 ├── LICENSE
 └── README.md
 ```
@@ -93,7 +88,7 @@ For GitHub Pages:
 ## Customization
 
 - Update the text content in `index.html`.
-- Replace or update the images in the repository root.
+- Replace or update the images inside `assets/`.
 - Tweak layout, colors, and motion in `main.css`.
 
 ## Contact
