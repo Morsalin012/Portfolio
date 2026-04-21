@@ -1,95 +1,82 @@
 # Muhammad Morsalin Portfolio
 
-A polished, responsive portfolio website for Muhammad Morsalin. The site combines an editorial-style hero, structured project showcases, academic highlights, certificates, and a terminal-inspired contact section.
+This is my personal portfolio site. I built it to feel calm, modern, and easy to browse, while still showing the work I care about: projects, certificates, education, and the path I’m following as a developer and researcher.
 
-## Overview
+## What’s Inside
 
-This repository contains a static single-page portfolio that presents:
+The site is a single-page portfolio with a few clear sections:
 
-- a photo-led hero section with quick links
-- a toolkit-style skills overview
-- selected projects and visual previews
-- education and academic journey details
-- certificates and achievements
-- a contact area with a terminal-inspired layout
+- a hero section with my photo, short intro, and quick links
+- a toolkit section that shows the technologies I use most
+- project cards with screenshots and short descriptions
+- education and academic journey highlights
+- a certificate section with clickable previews
+- a contact area styled like a small terminal window
 
-The goal is to keep the experience clean, professional, and easy to maintain.
+## Live Site
 
-## Live Preview
+- Live site: add your deployed URL here
 
-- Live site: replace this with your deployed URL
-
-## Tech Stack
+## Built With
 
 - HTML5
 - CSS3
 - Google Fonts
 - CSS Grid and Flexbox
 
-## Project Structure
+## Project Layout
 
 ```text
 Portfolio/
 ├── index.html
 ├── main.css
-├── assets
+├── assets/
 ├── LICENSE
 └── README.md
 ```
 
-## Features
+## A Few Notes
 
-- Responsive layout for desktop and mobile
-- Editorial typography and refined spacing
-- Photo-based hero section
-- Toolkit / skills presentation
-- Project cards with preview images
-- Timeline-style academic journey
-- Certificate gallery with clickable full-size previews
-- Terminal-inspired contact panel
-- Smooth hover and motion effects
+- The layout is fully responsive.
+- Images are stored inside `assets/`.
+- The certificate images open in full size when clicked.
+- The design uses soft spacing, smooth hover effects, and a clean editorial style.
 
-## Local Development
+## Run It Locally
 
-To run the site locally:
+If you want to preview it on your machine, just open `index.html` in a browser.
 
-1. Clone or download this repository.
-2. Open `index.html` in your browser.
-3. Or serve the folder with any local static server.
-
-Example with Python:
+If you prefer a local server, run:
 
 ```bash
 python -m http.server 8000
 ```
 
-Then open:
+Then visit:
 
 ```text
 http://localhost:8000
 ```
 
-## Deployment
+## Deploying
 
-This is a static site and can be deployed on:
-
-- GitHub Pages
-- Netlify
-- Vercel
+Because this is a static site, it can go live on GitHub Pages, Netlify, or Vercel without much setup.
 
 For GitHub Pages:
 
 1. Push the repository to GitHub.
-2. Go to `Settings` > `Pages`.
-3. Select `Deploy from a branch`.
-4. Choose the `main` branch and the root folder.
-5. Ensure `index.html` is the entry file.
+2. Open `Settings` > `Pages`.
+3. Choose `Deploy from a branch`.
+4. Select the `main` branch and the root folder.
+5. Make sure `index.html` is the entry file.
 
-## Customization
+## Updating the Site
 
-- Update the text content in `index.html`.
-- Replace or update the images inside `assets/`.
-- Tweak layout, colors, and motion in `main.css`.
+If you want to change the content, these are the main files to look at:
+
+- `index.html` for text and structure
+- `main.css` for styling and layout
+- `assets/` for images and screenshots
 
 ## Contact
 
@@ -99,4 +86,4 @@ For GitHub Pages:
 
 ## License
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+This project is released under the MIT License. See [LICENSE](LICENSE) for the full text.
