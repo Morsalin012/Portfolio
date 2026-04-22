@@ -30,6 +30,7 @@ The site is a single-page portfolio with a few clear sections:
 Portfolio/
 ├── index.html
 ├── main.css
+├── main.js
 ├── assets/
 ├── LICENSE
 └── README.md
@@ -76,6 +77,7 @@ If you want to change the content, these are the main files to look at:
 
 - `index.html` for text and structure
 - `main.css` for styling and layout
+- `main.js` for interactions and motion
 - `assets/` for images and screenshots
 
 ## Contact
