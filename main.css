@@ -24,22 +24,6 @@ body{
   background:var(--void);
   color:var(--text);
   overflow-x:hidden;
-  cursor:none;
-}
-/* --- CUSTOM CURSOR --- */
-.cursor{
-  position:fixed;width:10px;height:10px;
-  background:var(--amber);border-radius:50%;
-  pointer-events:none;z-index:9999;
-  transition:transform 0.15s,opacity 0.2s;
-  transform:translate(-50%,-50%);
-}
-.cursor-ring{
-  position:fixed;width:36px;height:36px;
-  border:1px solid rgba(245,166,35,0.4);
-  border-radius:50%;pointer-events:none;z-index:9998;
-  transition:transform 0.08s,width 0.25s,height 0.25s,border-color 0.25s;
-  transform:translate(-50%,-50%);
 }
 /* --- SCROLLBAR --- */
 ::-webkit-scrollbar{width:3px}
@@ -267,20 +251,6 @@ section{padding:8rem 5rem;position:relative;z-index:1}
 
 /* --- TOOLKIT --- */
 #toolkit{background:var(--void)}
-.skill-tabs{display:flex;gap:0;border-bottom:1px solid var(--line);margin-bottom:2.5rem;overflow-x:auto}
-.stab{
-  padding:0.7rem 1.5rem;font-size:0.78rem;font-weight:600;
-  letter-spacing:0.04em;cursor:pointer;color:var(--text2);
-  border-bottom:2px solid transparent;
-  transition:color 0.2s,border-color 0.2s;
-  white-space:nowrap;background:none;border:none;
-  border-bottom:2px solid transparent;
-  font-family:'DM Sans',sans-serif;
-}
-.stab.active{color:var(--amber);border-bottom-color:var(--amber)}
-.stab:hover:not(.active){color:var(--text)}
-.skill-panel{display:none}
-.skill-panel.active{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
 .skcard{
   background:var(--surface);border:1px solid var(--line);
   border-radius:var(--r);padding:1.25rem 1.5rem;
@@ -556,6 +526,5 @@ footer a:hover{text-decoration:underline}
   section{padding:5rem 1.25rem}
   .cert-row{grid-template-columns:1fr}
   .feat-list,.contact-data{grid-template-columns:1fr}
-  .skill-panel.active{grid-template-columns:1fr}
 }
 @media(prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important}}
